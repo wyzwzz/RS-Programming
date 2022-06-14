@@ -1,0 +1,11 @@
+prefix=D:/Study/tiff/tiff-res
+exec_prefix=D:/Study/tiff/tiff-res
+libdir=D:/Study/tiff/tiff-res/lib
+includedir=D:/Study/tiff/tiff-res/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.0.10
+Libs: -LD:/Study/tiff/tiff-res/lib -ltiff
+Libs.private: 
+Cflags: -ID:/Study/tiff/tiff-res/include
